@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    
+}
+
+.guide{
+    width: 199px;
+    height: 100%;
+    background-color: #4F595D;
+    text-align: center;
+    align-content: center;
+    position:fixed;
+    top:0px;
+    left:0px;
+    
+}
+
+.logo{
+    width: 199px;
+    height: 199px;
+    max-width: 199px;
+    max-height: 199px;
+    border-radius:199px;
+    padding-top: 50px;
+    margin-bottom: -60px;
+}
+
+.link{
+    align-items: center;
+}
+
+.line{
+    background-color: red;
+    width: 100%;
+    height: 2px;
+}
+
+.pagina{
+    align-items: center;
+    margin-left: 191px;
+}
+
+.imagem-slideshow{
+   position: relative;
+    margin-left: 100px;
+}
+
+.textoslide{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+h2{
+    color: red;
+
+}
+
+.about{
+    background-color: #4655A5;
+}
+
+h3{
+    color: white;
+}
+a{
+    color: white;
+}
+
+.footer{
+    background-color: #4F595D;
+}
