@@ -1,10 +1,10 @@
 body{
-    display: flex;
+    
     
 }
 
 .guide{
-    width: 199px;
+    width: 13.4%;
     height: 100%;
     background-color: #4F595D;
     text-align: center;
@@ -16,43 +16,99 @@ body{
 }
 
 .logo{
-    width: 199px;
-    height: 199px;
-    max-width: 199px;
-    max-height: 199px;
-    border-radius:199px;
-    padding-top: 50px;
-    margin-bottom: -60px;
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    
 }
 
 .link{
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+
+.links{
+    padding: 5px;
+    font-size: 200%;
 }
 
 .line{
     background-color: red;
     width: 100%;
     height: 2px;
+    margin: 20px 0 0;
+}
+
+.paginahome{
+    align-items: center;
+    margin-left: 13%;
+    width: 85%;
+    height: 100%;
+    
 }
 
 .pagina{
     align-items: center;
-    margin-left: 191px;
+    margin-left: 13%;
+    width: 85%;
+    height: 100%;
+    background-color: #4655A5
 }
 
+
 .imagem-slideshow{
-   position: relative;
-    margin-left: 100px;
+
+    
+    width: 100%  ;
 }
 
 .textoslide{
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    margin: 0px 2%;
 }
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+        display: flex;
+        text-align: justify;
+        margin-top: 80px;
+    }
+
+.containerimages{
+    padding-left: 20%;
+    width: 30%;
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: justify;
+    width: 30%;
+    padding-left: 100px;
+    color:red;
+    font-size: 40px;
+}
+
+.cartao{
+    border-color: red;
+    border: 2px red;
+    padding: 1%;
+}
+
+
+
+
 
 h2{
     color: red;
+    font-size: 300%;
 
 }
 
@@ -69,4 +125,14 @@ a{
 
 .footer{
     background-color: #4F595D;
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext{
+    color: white;
+
 }
