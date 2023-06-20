@@ -1,6 +1,10 @@
 body{
+    width: 100%;
+    margin-top: -20px;
     
     
+    margin-left: 5px;
+    margin-bottom: -20px;
 }
 
 .guide{
@@ -44,7 +48,7 @@ body{
 .paginahome{
     align-items: center;
     margin-left: 13%;
-    width: 85%;
+    width: 87%;
     height: 100%;
     
 }
@@ -52,9 +56,10 @@ body{
 .pagina{
     align-items: center;
     margin-left: 13%;
-    width: 85%;
+    width: 87%;
     height: 100%;
-    background-color: #4655A5
+    background-color: #4655A5;
+    padding-top: 10px;
 }
 
 
@@ -97,13 +102,33 @@ h4{
 }
 
 .cartao{
+    margin: 20px;
+    border: 2px solid red;
     border-color: red;
-    border: 2px red;
     padding: 1%;
+    display: flex;
 }
 
+.textocartao{
+    font-size: 30px;
 
+}
 
+.cartaoimg{
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+}
+
+.contactImages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactImage{
+    width: 300px;
+    height: 250px;
+}
 
 
 h2{
@@ -118,9 +143,26 @@ h2{
 
 h3{
     color: white;
+    font-size: 40px;
+    padding: 60px;
+    margin: -30px;
 }
+
 a{
     color: white;
+}
+
+.contact{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contactImag{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .footer{
