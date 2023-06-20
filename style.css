@@ -1,7 +1,7 @@
 body{
     width: 100%;
     margin-top: -20px;
-    
+    height: 100%;
     
     margin-left: 5px;
     margin-bottom: -20px;
@@ -58,6 +58,7 @@ body{
     margin-left: 13%;
     width: 87%;
     height: 100%;
+    padding-bottom: 150px;
     background-color: #4655A5;
     padding-top: 10px;
 }
@@ -160,9 +161,7 @@ a{
 
 .contactImag{
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    padding: 200px;
 }
 
 .footer{
