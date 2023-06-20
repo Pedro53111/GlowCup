@@ -67,7 +67,7 @@ body{
     margin-left: 13%;
     width: 87%;
     height: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 90px;
     background-color: #4655A5;
     padding-top: 10px;
 }
@@ -121,7 +121,7 @@ h4{
 
 .textocartao{
     font-size: 30px;
-
+    color: red;
 }
 
 .cartaoimg{
@@ -138,6 +138,7 @@ h4{
 .contactImage{
     width: 300px;
     height: 250px;
+    
 }
 
 
@@ -168,9 +169,12 @@ a{
     font-size: 20px;
 }
 
-.contactImag{
-    
-    padding: 200px;
+.contactImg{
+    width: 40%;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+
 }
 
 .footer{
